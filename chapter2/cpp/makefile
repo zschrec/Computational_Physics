@@ -11,3 +11,6 @@ ${PROG} : 	${OBJS}
 
 ${PROG}.o : ${PROG}.cpp
 			${CC} -c ${PROG}.cpp
+
+clean:
+	\rm *.o *.exe

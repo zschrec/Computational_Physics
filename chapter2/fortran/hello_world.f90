@@ -1,7 +1,7 @@
 
       PROGRAM shw
           IMPLICIT NONE
-          REAL (KIND=8) :: r, s
+          REAL (KIND=16) :: r, s
 
           WRITE(*,*) 'Input a number: '
           READ (*,*) r

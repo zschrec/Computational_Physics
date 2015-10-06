@@ -11,3 +11,6 @@ ${PROG} : 	${OBJS}
 
 ${PROG}.o : ${PROG}.f90
 			${FC} -c ${PROG}.f90
+
+clean :
+	\rm *.o *.exe
