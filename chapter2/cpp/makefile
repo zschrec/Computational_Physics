@@ -2,7 +2,9 @@
 # Here we define compiler option, libraries and the target
 
 CC= g++ 
-PROG= hello_world
+
+# PROG= hello_world
+PROG= pointers
 
 OBJS = ${PROG}.o
 

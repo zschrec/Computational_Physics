@@ -6,10 +6,10 @@ PROG= hello_world
 
 OBJS = ${PROG}.o
 
-${PROG} : 	${OBJS}
+${PROG} :	${OBJS}
 			${FC} ${OBJS} -o ${PROG} 
 
-${PROG}.o : ${PROG}.f90
+${PROG}.o :	${PROG}.f90
 			${FC} -c ${PROG}.f90
 
 clean :
